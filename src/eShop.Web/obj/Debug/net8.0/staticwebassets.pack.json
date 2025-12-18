@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/images/images/brand.png",
+      "PackagePath": "staticwebassets/images/images/brand.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/images/images/brand_dark.png",
+      "PackagePath": "staticwebassets/images/images/brand_dark.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/images/images/main_banner.png",
+      "PackagePath": "staticwebassets/images/images/main_banner.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/images/images/main_footer_text.png",
+      "PackagePath": "staticwebassets/images/images/main_footer_text.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/1.png",
+      "PackagePath": "staticwebassets/pics/Pics/1.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/10.png",
+      "PackagePath": "staticwebassets/pics/Pics/10.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/11.png",
+      "PackagePath": "staticwebassets/pics/Pics/11.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/12.png",
+      "PackagePath": "staticwebassets/pics/Pics/12.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/2.png",
+      "PackagePath": "staticwebassets/pics/Pics/2.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/3.png",
+      "PackagePath": "staticwebassets/pics/Pics/3.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/4.png",
+      "PackagePath": "staticwebassets/pics/Pics/4.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/5.png",
+      "PackagePath": "staticwebassets/pics/Pics/5.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/6.png",
+      "PackagePath": "staticwebassets/pics/Pics/6.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/7.png",
+      "PackagePath": "staticwebassets/pics/Pics/7.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/8.png",
+      "PackagePath": "staticwebassets/pics/Pics/8.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/9.png",
+      "PackagePath": "staticwebassets/pics/Pics/9.png"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/wwwroot/pics/Pics/dummy.png",
+      "PackagePath": "staticwebassets/pics/Pics/dummy.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.eShop.Web.props",
+      "PackagePath": "build\\eShop.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.eShop.Web.props",
+      "PackagePath": "buildMultiTargeting\\eShop.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.eShop.Web.props",
+      "PackagePath": "buildTransitive\\eShop.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.eShop.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
