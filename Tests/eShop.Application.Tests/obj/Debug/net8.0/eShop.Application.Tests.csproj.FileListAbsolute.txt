@@ -1,0 +1,6 @@
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/obj/Debug/net8.0/eShop.Application.Tests.csproj.AssemblyReference.cache
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/obj/Debug/net8.0/eShop.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/obj/Debug/net8.0/eShop.Application.Tests.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/obj/Debug/net8.0/eShop.Application.Tests.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/obj/Debug/net8.0/eShop.Application.Tests.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/obj/Debug/net8.0/eShop.Application.Tests.sourcelink.json
