@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "RePLYwyYbzAUhW8QSvt5/TAl3drBY+O3r+TMce3wh24=",
+  "Source": "eShopOnWeb.Web",
+  "BasePath": "_content/eShopOnWeb.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "eShopOnWeb.Web/wwwroot",
+      "Source": "eShopOnWeb.Web",
+      "ContentRoot": "/modernize-data/studio-data/TNT1001/APP1947/transformed-code/43/studio-workspace/dotnetCOmp/migrated/src/eShopOnWeb.Web/wwwroot/",
+      "BasePath": "_content/eShopOnWeb.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/modernize-data/studio-data/TNT1001/APP1947/transformed-code/43/studio-workspace/dotnetCOmp/migrated/src/eShopOnWeb.Web/wwwroot/css/site.css",
+      "SourceId": "eShopOnWeb.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/modernize-data/studio-data/TNT1001/APP1947/transformed-code/43/studio-workspace/dotnetCOmp/migrated/src/eShopOnWeb.Web/wwwroot/",
+      "BasePath": "_content/eShopOnWeb.Web",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/modernize-data/studio-data/TNT1001/APP1947/transformed-code/43/studio-workspace/dotnetCOmp/migrated/src/eShopOnWeb.Web/wwwroot/js/site.js",
+      "SourceId": "eShopOnWeb.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/modernize-data/studio-data/TNT1001/APP1947/transformed-code/43/studio-workspace/dotnetCOmp/migrated/src/eShopOnWeb.Web/wwwroot/",
+      "BasePath": "_content/eShopOnWeb.Web",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    }
+  ]
+}

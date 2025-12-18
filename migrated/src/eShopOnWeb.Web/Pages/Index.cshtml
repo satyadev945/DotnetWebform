@@ -1,0 +1,74 @@
+@page
+@model eShopOnWeb.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home - eShop Catalog";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <h1>eShop Catalog</h1>
+            <p>Browse our product catalog</p>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <a asp-page="/Catalog/Create" class="btn btn-primary">Add New Item</a>
+        </div>
+    </div>
+
+    @if (Model.Items != null && Model.Items.Any())
+    {
+        <div class="row">
+            @foreach (var item in Model.Items)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">@item.Description</p>
+                            <p class="card-text">
+                                <strong>Price:</strong> $@item.Price.ToString("F2")<br />
+                                <strong>Brand:</strong> @item.CatalogBrandName<br />
+                                <strong>Type:</strong> @item.CatalogTypeName<br />
+                                <strong>Stock:</strong> @item.AvailableStock
+                            </p>
+                            <a asp-page="/Catalog/Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                            <a asp-page="/Catalog/Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                            <a asp-page="/Catalog/Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <nav>
+                    <ul class="pagination">
+                        @if (Model.PageIndex > 0)
+                        {
+                            <li class="page-item">
+                                <a class="page-link" asp-page="/Index" asp-route-pageIndex="@(Model.PageIndex - 1)">Previous</a>
+                            </li>
+                        }
+                        @if ((Model.PageIndex + 1) * Model.PageSize < Model.TotalCount)
+                        {
+                            <li class="page-item">
+                                <a class="page-link" asp-page="/Index" asp-route-pageIndex="@(Model.PageIndex + 1)">Next</a>
+                            </li>
+                        }
+                    </ul>
+                </nav>
+                <p>Page @(Model.PageIndex + 1) of @Math.Ceiling((decimal)Model.TotalCount / Model.PageSize) - Total Items: @Model.TotalCount</p>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            No catalog items found.
+        </div>
+    }
+</div>
