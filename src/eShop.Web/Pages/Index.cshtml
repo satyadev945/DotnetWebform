@@ -1,0 +1,75 @@
+@page
+@model eShop.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Catalog - eShop";
+}
+
+<div class="container">
+    <h1 class="my-4">Product Catalog</h1>
+
+    @if (Model.CatalogItems != null && Model.CatalogItems.Items.Any())
+    {
+        <div class="row">
+            @foreach (var item in Model.CatalogItems.Items)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">@item.Description</p>
+                            <p class="card-text">
+                                <strong>Price:</strong> @item.Price.ToString("C")<br />
+                                <strong>Brand:</strong> @item.CatalogBrandName<br />
+                                <strong>Type:</strong> @item.CatalogTypeName<br />
+                                <strong>Stock:</strong> @item.AvailableStock
+                            </p>
+                            <a asp-page="/Catalog/Details" asp-route-id="@item.Id" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <nav aria-label="Catalog pagination">
+            <ul class="pagination justify-content-center">
+                @if (Model.CatalogItems.HasPreviousPage)
+                {
+                    <li class="page-item">
+                        <a class="page-link" asp-page="/Index" asp-route-pageIndex="@(Model.CatalogItems.PageIndex - 1)" asp-route-pageSize="@Model.CatalogItems.PageSize">Previous</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="page-item disabled">
+                        <span class="page-link">Previous</span>
+                    </li>
+                }
+
+                <li class="page-item active">
+                    <span class="page-link">@(Model.CatalogItems.PageIndex + 1) / @Model.CatalogItems.TotalPages</span>
+                </li>
+
+                @if (Model.CatalogItems.HasNextPage)
+                {
+                    <li class="page-item">
+                        <a class="page-link" asp-page="/Index" asp-route-pageIndex="@(Model.CatalogItems.PageIndex + 1)" asp-route-pageSize="@Model.CatalogItems.PageSize">Next</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="page-item disabled">
+                        <span class="page-link">Next</span>
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
+    else
+    {
+        <div class="alert alert-info">No catalog items available.</div>
+    }
+
+    <div class="mt-3">
+        <a asp-page="/Catalog/Create" class="btn btn-success">Create New Item</a>
+    </div>
+</div>

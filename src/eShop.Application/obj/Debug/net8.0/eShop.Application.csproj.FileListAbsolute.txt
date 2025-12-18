@@ -1,0 +1,16 @@
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/bin/Debug/net8.0/eShop.Application.deps.json
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/bin/Debug/net8.0/eShop.Application.dll
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/bin/Debug/net8.0/eShop.Application.pdb
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/bin/Debug/net8.0/eShop.Domain.dll
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/bin/Debug/net8.0/eShop.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/eShop.Application.csproj.AssemblyReference.cache
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/eShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/eShop.Application.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/eShop.Application.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/eShop.Application.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/eShop.Application.sourcelink.json
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/eShop.Ap.66A590BF.Up2Date
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/eShop.Application.dll
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/refint/eShop.Application.dll
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/eShop.Application.pdb
+/modernize-data/studio-data/TNT1001/APP1940/transformed-code/42/studio-workspace/comp_backend/src/eShop.Application/obj/Debug/net8.0/ref/eShop.Application.dll
