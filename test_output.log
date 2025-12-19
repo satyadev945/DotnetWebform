@@ -1,0 +1,141 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  eShop.Domain -> /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Domain/bin/Debug/net8.0/eShop.Domain.dll
+Test run for /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Domain/bin/Debug/net8.0/eShop.Domain.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.11.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+No test is available in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Domain/bin/Debug/net8.0/eShop.Domain.dll. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again.
+
+Additionally, path to test adapters can be specified using /TestAdapterPath command. Example  /TestAdapterPath:<pathToCustomAdapters>.
+  eShop.Domain.Tests -> /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/bin/Debug/net8.0/eShop.Domain.Tests.dll
+  eShop.Application -> /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Application/bin/Debug/net8.0/eShop.Application.dll
+Test run for /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Application/bin/Debug/net8.0/eShop.Application.dll (.NETCoreApp,Version=v8.0)
+  [coverlet] _mapping file name: 'CoverletSourceRootsMapping_eShop.Domain.Tests'
+VSTest version 17.11.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Test run for /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/bin/Debug/net8.0/eShop.Domain.Tests.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.11.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+No test is available in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Application/bin/Debug/net8.0/eShop.Application.dll. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again.
+
+Additionally, path to test adapters can be specified using /TestAdapterPath command. Example  /TestAdapterPath:<pathToCustomAdapters>.
+  eShop.Infrastructure -> /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Infrastructure/bin/Debug/net8.0/eShop.Infrastructure.dll
+Test run for /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Infrastructure/bin/Debug/net8.0/eShop.Infrastructure.dll (.NETCoreApp,Version=v8.0)
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/CatalogContextTests.cs(4,13): error CS0234: The type or namespace name 'Infrastructure' does not exist in the namespace 'eShop' (are you missing an assembly reference?) [/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/eShop.Application.Tests.csproj]
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/CatalogItemRepositoryTests.cs(6,13): error CS0234: The type or namespace name 'Infrastructure' does not exist in the namespace 'eShop' (are you missing an assembly reference?) [/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/eShop.Application.Tests.csproj]
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/CatalogItemRepositoryTests.cs(7,13): error CS0234: The type or namespace name 'Infrastructure' does not exist in the namespace 'eShop' (are you missing an assembly reference?) [/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/eShop.Application.Tests.csproj]
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/ProgramTests.cs(2,17): error CS0234: The type or namespace name 'AspNetCore' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?) [/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/eShop.Application.Tests.csproj]
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/ProgramTests.cs(3,28): error CS0234: The type or namespace name 'Hosting' does not exist in the namespace 'Microsoft.Extensions' (are you missing an assembly reference?) [/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/eShop.Application.Tests.csproj]
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/CatalogItemRepositoryTests.cs(18,22): error CS0246: The type or namespace name 'CatalogContext' could not be found (are you missing a using directive or an assembly reference?) [/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/eShop.Application.Tests.csproj]
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/CatalogItemRepositoryTests.cs(19,35): error CS0246: The type or namespace name 'CatalogItemRepository' could not be found (are you missing a using directive or an assembly reference?) [/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/eShop.Application.Tests.csproj]
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/CatalogItemRepositoryTests.cs(20,22): error CS0246: The type or namespace name 'CatalogItemRepository' could not be found (are you missing a using directive or an assembly reference?) [/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Application.Tests/eShop.Application.Tests.csproj]
+VSTest version 17.11.1 (x64)
+
+[xUnit.net 00:00:00.25]     Tests.eShop.Domain.Interfaces.Services.ICatalogTypeServiceTests.ICatalogTypeService_GenericConstraintsAreCorrect [FAIL]
+[xUnit.net 00:00:00.25]     Tests.eShop.Domain.Interfaces.Repositories.ICatalogTypeRepositoryTests.ICatalogTypeRepository_GenericConstraintsAreCorrect [FAIL]
+[xUnit.net 00:00:00.25]     Tests.eShop.Domain.Interfaces.Repositories.ICatalogItemRepositoryTests.ICatalogItemRepository_HasCorrectMethodCount [FAIL]
+[xUnit.net 00:00:00.25]     Tests.eShop.Domain.Interfaces.Repositories.ICatalogBrandRepositoryTests.ICatalogBrandRepository_HasGetAllAsyncMethod [FAIL]
+[xUnit.net 00:00:00.25]     Tests.eShop.Domain.Interfaces.Services.ICatalogItemServiceTests.ICatalogItemService_HasGetAllAsyncMethod [FAIL]
+  Failed Tests.eShop.Domain.Interfaces.Services.ICatalogTypeServiceTests.ICatalogTypeService_GenericConstraintsAreCorrect [2 ms]
+  Error Message:
+   System.IndexOutOfRangeException : Index was outside the bounds of the array.
+  Stack Trace:
+     at Tests.eShop.Domain.Interfaces.Services.ICatalogTypeServiceTests.ICatalogTypeService_GenericConstraintsAreCorrect() in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/ICatalogTypeServiceTests.cs:line 382
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+  Failed Tests.eShop.Domain.Interfaces.Repositories.ICatalogTypeRepositoryTests.ICatalogTypeRepository_GenericConstraintsAreCorrect [1 ms]
+  Error Message:
+   System.IndexOutOfRangeException : Index was outside the bounds of the array.
+  Stack Trace:
+     at Tests.eShop.Domain.Interfaces.Repositories.ICatalogTypeRepositoryTests.ICatalogTypeRepository_GenericConstraintsAreCorrect() in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/ICatalogTypeRepositoryTests.cs:line 326
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+  Failed Tests.eShop.Domain.Interfaces.Repositories.ICatalogItemRepositoryTests.ICatalogItemRepository_HasCorrectMethodCount [2 ms]
+  Error Message:
+   Assert.Equal() Failure: Values differ
+Expected: 9
+Actual:   10
+  Stack Trace:
+     at Tests.eShop.Domain.Interfaces.Repositories.ICatalogItemRepositoryTests.ICatalogItemRepository_HasCorrectMethodCount() in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/ICatalogItemRepositoryTests.cs:line 261
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+  Failed Tests.eShop.Domain.Interfaces.Repositories.ICatalogBrandRepositoryTests.ICatalogBrandRepository_HasGetAllAsyncMethod [< 1 ms]
+  Error Message:
+   Assert.Equal() Failure: Values differ
+Expected: System.Threading.CancellationToken
+Actual:   null
+  Stack Trace:
+     at Tests.eShop.Domain.Interfaces.Repositories.ICatalogBrandRepositoryTests.ICatalogBrandRepository_HasGetAllAsyncMethod() in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/ICatalogBrandRepositoryTests.cs:line 30
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+  Failed Tests.eShop.Domain.Interfaces.Services.ICatalogItemServiceTests.ICatalogItemService_HasGetAllAsyncMethod [2 ms]
+  Error Message:
+   Assert.Equal() Failure: Values differ
+Expected: System.Threading.CancellationToken
+Actual:   null
+  Stack Trace:
+     at Tests.eShop.Domain.Interfaces.Services.ICatalogItemServiceTests.ICatalogItemService_HasGetAllAsyncMethod() in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/ICatalogItemServiceTests.cs:line 30
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[xUnit.net 00:00:00.25]     Tests.eShop.Domain.Interfaces.Services.ICatalogBrandServiceTests.ICatalogBrandService_HasGetAllAsyncMethod [FAIL]
+  Failed Tests.eShop.Domain.Interfaces.Services.ICatalogBrandServiceTests.ICatalogBrandService_HasGetAllAsyncMethod [2 ms]
+  Error Message:
+   Assert.Equal() Failure: Values differ
+Expected: System.Threading.CancellationToken
+Actual:   null
+  Stack Trace:
+     at Tests.eShop.Domain.Interfaces.Services.ICatalogBrandServiceTests.ICatalogBrandService_HasGetAllAsyncMethod() in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/ICatalogBrandServiceTests.cs:line 30
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[xUnit.net 00:00:00.25]     Tests.eShop.Domain.Interfaces.Repositories.ICatalogTypeRepositoryTests.ICatalogTypeRepository_HasGetAllAsyncMethod [FAIL]
+  Failed Tests.eShop.Domain.Interfaces.Repositories.ICatalogTypeRepositoryTests.ICatalogTypeRepository_HasGetAllAsyncMethod [< 1 ms]
+  Error Message:
+   Assert.Equal() Failure: Values differ
+Expected: System.Threading.CancellationToken
+Actual:   null
+  Stack Trace:
+     at Tests.eShop.Domain.Interfaces.Repositories.ICatalogTypeRepositoryTests.ICatalogTypeRepository_HasGetAllAsyncMethod() in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/ICatalogTypeRepositoryTests.cs:line 30
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[xUnit.net 00:00:00.26]     Tests.eShop.Domain.Interfaces.Repositories.ICatalogItemRepositoryTests.ICatalogItemRepository_HasGetAllAsyncMethod [FAIL]
+  Failed Tests.eShop.Domain.Interfaces.Repositories.ICatalogItemRepositoryTests.ICatalogItemRepository_HasGetAllAsyncMethod [< 1 ms]
+  Error Message:
+   Assert.Equal() Failure: Values differ
+Expected: System.Threading.CancellationToken
+Actual:   null
+  Stack Trace:
+     at Tests.eShop.Domain.Interfaces.Repositories.ICatalogItemRepositoryTests.ICatalogItemRepository_HasGetAllAsyncMethod() in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/ICatalogItemRepositoryTests.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[xUnit.net 00:00:00.26]     Tests.eShop.Domain.Interfaces.Services.ICatalogTypeServiceTests.ICatalogTypeService_HasGetAllAsyncMethod [FAIL]
+  Failed Tests.eShop.Domain.Interfaces.Services.ICatalogTypeServiceTests.ICatalogTypeService_HasGetAllAsyncMethod [< 1 ms]
+  Error Message:
+   Assert.Equal() Failure: Values differ
+Expected: System.Threading.CancellationToken
+Actual:   null
+  Stack Trace:
+     at Tests.eShop.Domain.Interfaces.Services.ICatalogTypeServiceTests.ICatalogTypeService_HasGetAllAsyncMethod() in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/ICatalogTypeServiceTests.cs:line 30
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+Starting test execution, please wait...
+
+A total of 1 test files matched the specified pattern.
+Failed!  - Failed:     9, Passed:   253, Skipped:     0, Total:   262, Duration: 47 ms - eShop.Domain.Tests.dll (net8.0)
+No test is available in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Infrastructure/bin/Debug/net8.0/eShop.Infrastructure.dll. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again.
+
+Additionally, path to test adapters can be specified using /TestAdapterPath command. Example  /TestAdapterPath:<pathToCustomAdapters>.
+  eShop.Web -> /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/bin/Debug/net8.0/eShop.Web.dll
+Test run for /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/bin/Debug/net8.0/eShop.Web.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.11.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+No test is available in /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Web/bin/Debug/net8.0/eShop.Web.dll. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again.
+
+Additionally, path to test adapters can be specified using /TestAdapterPath command. Example  /TestAdapterPath:<pathToCustomAdapters>.
