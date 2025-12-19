@@ -56,13 +56,14 @@ public class IndexModel : PageModel
             // Get paginated data from service
             var paginatedItems = await _catalogService.GetPaginatedAsync(pageIndex, pageSize, cancellationToken);
 
+            var paginatedItemsDto = (PaginatedItemsDto<CatalogItemDto>)paginatedItems;
             // Manual mapping from DTOs to ViewModels
             CatalogItems = new PaginatedCatalogItemsViewModel
             {
-                Items = paginatedItems.Items.Select(MapToViewModel),
-                PageIndex = paginatedItems.PageIndex,
-                PageSize = paginatedItems.PageSize,
-                TotalCount = paginatedItems.TotalCount
+                Items = paginatedItemsDto.Items.Select(MapToViewModel),
+                PageIndex = paginatedItemsDto.PageIndex,
+                PageSize = paginatedItemsDto.PageSize,
+                TotalCount = paginatedItemsDto.TotalCount
             };
 
             _logger.LogInformation("Successfully loaded {ItemCount} catalog items", CatalogItems.Items.Count());

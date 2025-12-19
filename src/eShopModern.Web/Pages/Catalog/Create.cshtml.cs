@@ -90,10 +90,11 @@ public class CreateModel : PageModel
 
             // Create the catalog item
             var createdItem = await _catalogService.CreateAsync(createDto, cancellationToken);
+            var createdItemDto = (CatalogItemDto)createdItem;
 
-            _logger.LogInformation("Successfully created catalog item with ID: {Id}", createdItem.Id);
+            _logger.LogInformation("Successfully created catalog item with ID: {Id}", createdItemDto.Id);
 
-            TempData["SuccessMessage"] = $"Catalog item '{createdItem.Name}' was created successfully.";
+            TempData["SuccessMessage"] = $"Catalog item '{createdItemDto.Name}' was created successfully.";
             return RedirectToPage("../Index");
         }
         catch (Exception ex)

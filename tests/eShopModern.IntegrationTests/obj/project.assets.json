@@ -2743,7 +2743,9 @@
           "FluentValidation": "11.9.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
-          "eShopModern.Domain": "1.0.0"
+          "Microsoft.NET.Test.Sdk": "17.8.0",
+          "eShopModern.Domain": "1.0.0",
+          "xunit": "2.6.1"
         },
         "compile": {
           "bin/placeholder/eShopModern.Application.dll": {}
@@ -2755,6 +2757,10 @@
       "eShopModern.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": "17.8.0",
+          "xunit": "2.6.1"
+        },
         "compile": {
           "bin/placeholder/eShopModern.Domain.dll": {}
         },
@@ -2770,8 +2776,10 @@
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "Microsoft.NET.Test.Sdk": "17.8.0",
           "eShopModern.Application": "1.0.0",
-          "eShopModern.Domain": "1.0.0"
+          "eShopModern.Domain": "1.0.0",
+          "xunit": "2.6.1"
         },
         "compile": {
           "bin/placeholder/eShopModern.Infrastructure.dll": {}
@@ -2785,9 +2793,11 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
+          "Microsoft.NET.Test.Sdk": "17.8.0",
           "Serilog.AspNetCore": "8.0.0",
           "eShopModern.Application": "1.0.0",
-          "eShopModern.Infrastructure": "1.0.0"
+          "eShopModern.Infrastructure": "1.0.0",
+          "xunit": "2.6.1"
         },
         "compile": {
           "bin/placeholder/eShopModern.Web.dll": {}
