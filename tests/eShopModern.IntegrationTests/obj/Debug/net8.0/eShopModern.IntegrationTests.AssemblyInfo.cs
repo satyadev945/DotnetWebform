@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eShopModern.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df73c7ff292bdd42ff735750e074fe4e92bcdb14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+944142073ce3e2ece13bd6ff8091eda44fc82621")]
 [assembly: System.Reflection.AssemblyProductAttribute("eShopModern.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eShopModern.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
