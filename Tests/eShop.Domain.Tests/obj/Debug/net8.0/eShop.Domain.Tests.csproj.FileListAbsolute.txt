@@ -1,9 +1,4 @@
-/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.csproj.AssemblyReference.cache
-/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
-/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.AssemblyInfoInputs.cache
-/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.AssemblyInfo.cs
-/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.csproj.CoreCompileInputs.cache
-/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.sourcelink.json
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_eShop.Domain.Tests
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/bin/Debug/net8.0/eShop.Domain.deps.json
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/bin/Debug/net8.0/eShop.Domain.runtimeconfig.json
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/bin/Debug/net8.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -111,10 +106,15 @@
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/bin/Debug/net8.0/eShop.Domain.dll
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/bin/Debug/net8.0/eShop.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.csproj.AssemblyReference.cache
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.sourcelink.json
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Do.2207178D.Up2Date
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.dll
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/refint/eShop.Domain.Tests.dll
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.pdb
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/eShop.Domain.Tests.genruntimeconfig.cache
 /modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/obj/Debug/net8.0/ref/eShop.Domain.Tests.dll
-/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/Tests/eShop.Domain.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_eShop.Domain.Tests

@@ -3,6 +3,7 @@ using Moq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using eShop.Domain.Entities;
+using eShop.Domain.Interfaces.Repositories;
 using eShop.Infrastructure.Data;
 using eShop.Infrastructure.Repositories;
 using System;
@@ -395,7 +396,7 @@ public class CatalogItemRepositoryTests : IDisposable
     public void CatalogItemRepository_ImplementsICatalogItemRepository()
     {
         // Assert
-        Assert.IsAssignableFrom<Domain.Interfaces.Repositories.ICatalogItemRepository>(_repository);
+        Assert.IsAssignableFrom<ICatalogItemRepository>(_repository);
     }
 
     [Theory]

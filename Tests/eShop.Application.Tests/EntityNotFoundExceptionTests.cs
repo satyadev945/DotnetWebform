@@ -172,10 +172,10 @@ public class EntityNotFoundExceptionTests
         var entityId = 123;
 
         // Act & Assert
-        var exception = Assert.Throws<EntityNotFoundException>(() =>
+        var exception = Assert.Throws<EntityNotFoundException>((Action)(() =>
         {
             throw new EntityNotFoundException(entityName, entityId);
-        });
+        }));
 
         Assert.Equal(entityName, exception.EntityName);
         Assert.Equal(entityId, exception.EntityId);

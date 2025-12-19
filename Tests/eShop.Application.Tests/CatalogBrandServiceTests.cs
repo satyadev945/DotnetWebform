@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using eShop.Domain.Entities;
 using eShop.Domain.Exceptions;
 using eShop.Domain.Interfaces.Repositories;
+using eShop.Domain.Interfaces.Services;
 using eShop.Application.Services;
 
 namespace Tests.eShop.Application.Services;
@@ -313,7 +314,7 @@ public class CatalogBrandServiceTests
     public void CatalogBrandService_ImplementsICatalogBrandService()
     {
         // Arrange & Act & Assert
-        Assert.IsAssignableFrom<Domain.Interfaces.Services.ICatalogBrandService>(_service);
+        Assert.IsAssignableFrom<ICatalogBrandService>(_service);
     }
 
     [Fact]

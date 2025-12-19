@@ -31,6 +31,9 @@
               },
               "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Domain/eShop.Domain.csproj": {
                 "projectPath": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Domain/eShop.Domain.csproj"
+              },
+              "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Infrastructure/eShop.Infrastructure.csproj": {
+                "projectPath": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Infrastructure/eShop.Infrastructure.csproj"
               }
             }
           }
@@ -62,6 +65,18 @@
               "target": "Package",
               "version": "[4.20.69, )"
             },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.6.1, )"
@@ -85,6 +100,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -231,6 +249,119 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Infrastructure/eShop.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Infrastructure/eShop.Infrastructure.csproj",
+        "projectName": "eShop.Infrastructure",
+        "projectPath": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Infrastructure/eShop.Infrastructure.csproj",
+        "packagesPath": "/home/studioai/.nuget/packages/",
+        "outputPath": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/studioai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Application/eShop.Application.csproj": {
+                "projectPath": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Application/eShop.Application.csproj"
+              },
+              "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Domain/eShop.Domain.csproj": {
+                "projectPath": "/modernize-data/studio-data/TNT1001/APP1955/transformed-code/81/studio-workspace/dotnet_comp/src/eShop.Domain/eShop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.28, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
             },
