@@ -1,0 +1,129 @@
+@page
+@model eShopModern.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="esh-table">
+    <p class="esh-link-wrapper">
+        <a asp-page="./Catalog/Create" class="btn esh-button esh-button-primary">
+            Create New
+        </a>
+    </p>
+
+    @if (Model.CatalogItems.Items.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr class="esh-table-header">
+                    <th></th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Brand</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Picture name</th>
+                    <th>Stock</th>
+                    <th>Restock</th>
+                    <th>Max stock</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CatalogItems.Items)
+                {
+                    <tr>
+                        <td>
+                            <img class="esh-thumbnail" src="~/Pics/@item.PictureFileName" alt="@item.Name" />
+                        </td>
+                        <td>
+                            <p>@item.Name</p>
+                        </td>
+                        <td>
+                            <p>@item.Description</p>
+                        </td>
+                        <td>
+                            <p>@item.CatalogBrandName</p>
+                        </td>
+                        <td>
+                            <p>@item.CatalogTypeName</p>
+                        </td>
+                        <td>
+                            <p><span class="esh-price">@item.Price.ToString("C")</span></p>
+                        </td>
+                        <td>
+                            <p>@item.PictureFileName</p>
+                        </td>
+                        <td>
+                            <p>@item.AvailableStock</p>
+                        </td>
+                        <td>
+                            <p>@item.RestockThreshold</p>
+                        </td>
+                        <td>
+                            <p>@item.MaxStockThreshold</p>
+                        </td>
+                        <td>
+                            <a asp-page="./Catalog/Edit" asp-route-id="@item.Id" class="esh-table-link">
+                                Edit
+                            </a>
+                            |
+                            <a asp-page="./Catalog/Details" asp-route-id="@item.Id" class="esh-table-link">
+                                Details
+                            </a>
+                            |
+                            <a asp-page="./Catalog/Delete" asp-route-id="@item.Id" class="esh-table-link">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No catalog items found.</p>
+    }
+</div>
+
+<div class="esh-pager">
+    <div class="container">
+        <article class="esh-pager-wrapper row">
+            <nav>
+                @if (Model.CatalogItems.HasPrevious)
+                {
+                    <a asp-page="./Index"
+                       asp-route-pageIndex="@(Model.CatalogItems.PageIndex - 1)"
+                       asp-route-pageSize="@Model.CatalogItems.PageSize"
+                       class="esh-pager-item esh-pager-item--navigable">
+                        Previous
+                    </a>
+                }
+                else
+                {
+                    <span class="esh-pager-item esh-pager-item--hidden">Previous</span>
+                }
+
+                <span class="esh-pager-item">
+                    Showing @Model.CatalogItems.PageSize of @Model.CatalogItems.TotalCount products -
+                    Page @(Model.CatalogItems.PageIndex + 1) - @Model.CatalogItems.TotalPages
+                </span>
+
+                @if (Model.CatalogItems.HasNext)
+                {
+                    <a asp-page="./Index"
+                       asp-route-pageIndex="@(Model.CatalogItems.PageIndex + 1)"
+                       asp-route-pageSize="@Model.CatalogItems.PageSize"
+                       class="esh-pager-item esh-pager-item--navigable">
+                        Next
+                    </a>
+                }
+                else
+                {
+                    <span class="esh-pager-item esh-pager-item--hidden">Next</span>
+                }
+            </nav>
+        </article>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/obj/Debug/net8.0/eShopModern.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/obj/Debug/net8.0/eShopModern.Domain.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/obj/Debug/net8.0/eShopModern.Domain.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/obj/Debug/net8.0/eShopModern.Domain.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/obj/Debug/net8.0/eShopModern.Domain.sourcelink.json
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/bin/Debug/net8.0/eShopModern.Domain.deps.json
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/bin/Debug/net8.0/eShopModern.Domain.dll
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/bin/Debug/net8.0/eShopModern.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/obj/Debug/net8.0/eShopModern.Domain.dll
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/obj/Debug/net8.0/refint/eShopModern.Domain.dll
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/obj/Debug/net8.0/eShopModern.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP1967/transformed-code/86/studio-workspace/backendDotnet/src/eShopModern.Domain/obj/Debug/net8.0/ref/eShopModern.Domain.dll

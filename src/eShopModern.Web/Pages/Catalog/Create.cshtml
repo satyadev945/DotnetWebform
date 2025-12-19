@@ -1,0 +1,148 @@
+@page
+@model eShopModern.Web.Pages.Catalog.CreateModel
+@{
+    ViewData["Title"] = "Create Catalog Item";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h4>Create New Catalog Item</h4>
+            </div>
+            <div class="card-body">
+                <form method="post" data-validation="true">
+                    <div asp-validation-summary="ModelOnly" class="validation-summary-errors"></div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="CatalogItem.Name" class="form-label"></label>
+                                <input asp-for="CatalogItem.Name" class="form-control" />
+                                <span asp-validation-for="CatalogItem.Name" class="field-validation-error"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="CatalogItem.Price" class="form-label"></label>
+                                <input asp-for="CatalogItem.Price" class="form-control" type="number" step="0.01" />
+                                <span asp-validation-for="CatalogItem.Price" class="field-validation-error"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="CatalogItem.Description" class="form-label"></label>
+                        <textarea asp-for="CatalogItem.Description" class="form-control" rows="3"></textarea>
+                        <span asp-validation-for="CatalogItem.Description" class="field-validation-error"></span>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="CatalogItem.CatalogTypeId" class="form-label">Type</label>
+                                <select asp-for="CatalogItem.CatalogTypeId" asp-items="Model.CatalogTypes" class="form-control">
+                                    <option value="">-- Select Type --</option>
+                                </select>
+                                <span asp-validation-for="CatalogItem.CatalogTypeId" class="field-validation-error"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="CatalogItem.CatalogBrandId" class="form-label">Brand</label>
+                                <select asp-for="CatalogItem.CatalogBrandId" asp-items="Model.CatalogBrands" class="form-control">
+                                    <option value="">-- Select Brand --</option>
+                                </select>
+                                <span asp-validation-for="CatalogItem.CatalogBrandId" class="field-validation-error"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="CatalogItem.PictureFileName" class="form-label">Picture File Name</label>
+                                <input asp-for="CatalogItem.PictureFileName" class="form-control" />
+                                <span asp-validation-for="CatalogItem.PictureFileName" class="field-validation-error"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="CatalogItem.PictureUri" class="form-label">Picture URI</label>
+                                <input asp-for="CatalogItem.PictureUri" class="form-control" />
+                                <span asp-validation-for="CatalogItem.PictureUri" class="field-validation-error"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group mb-3">
+                                <label asp-for="CatalogItem.AvailableStock" class="form-label">Available Stock</label>
+                                <input asp-for="CatalogItem.AvailableStock" class="form-control" type="number" />
+                                <span asp-validation-for="CatalogItem.AvailableStock" class="field-validation-error"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group mb-3">
+                                <label asp-for="CatalogItem.RestockThreshold" class="form-label">Restock Threshold</label>
+                                <input asp-for="CatalogItem.RestockThreshold" class="form-control" type="number" />
+                                <span asp-validation-for="CatalogItem.RestockThreshold" class="field-validation-error"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group mb-3">
+                                <label asp-for="CatalogItem.MaxStockThreshold" class="form-label">Max Stock Threshold</label>
+                                <input asp-for="CatalogItem.MaxStockThreshold" class="form-control" type="number" />
+                                <span asp-validation-for="CatalogItem.MaxStockThreshold" class="field-validation-error"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <div class="form-check">
+                            <input asp-for="CatalogItem.OnReorder" class="form-check-input" type="checkbox" />
+                            <label asp-for="CatalogItem.OnReorder" class="form-check-label">On Reorder</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Create</button>
+                        <a asp-page="../Index" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5>Preview</h5>
+            </div>
+            <div class="card-body">
+                <div id="preview-area">
+                    <div class="text-center">
+                        <img id="preview-image" src="~/Pics/dummy.png" class="img-fluid" style="max-width: 200px;" alt="Preview" />
+                        <p class="mt-2"><small class="text-muted">Picture preview will appear here</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Update preview image when picture filename changes
+        document.getElementById('CatalogItem_PictureFileName').addEventListener('input', function() {
+            const filename = this.value || 'dummy.png';
+            const previewImage = document.getElementById('preview-image');
+            previewImage.src = `/Pics/${filename}`;
+            previewImage.onerror = function() {
+                this.src = '/Pics/dummy.png';
+            };
+        });
+    </script>
+}
