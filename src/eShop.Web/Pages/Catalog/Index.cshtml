@@ -1,0 +1,85 @@
+@page
+@model eShop.Web.Pages.Catalog.IndexModel
+@{
+    ViewData["Title"] = "Catalog";
+}
+
+<h1>Catalog Items</h1>
+
+<div class="row mb-3">
+    <div class="col-md-12">
+        <form method="get">
+            <div class="row">
+                <div class="col-md-4">
+                    <select name="typeId" class="form-select" asp-items="Model.TypeSelectList">
+                        <option value="">All Types</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <select name="brandId" class="form-select" asp-items="Model.BrandSelectList">
+                        <option value="">All Brands</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-primary">Filter</button>
+                    <a asp-page="/Catalog/Create" class="btn btn-success">Create New</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row">
+    @if (Model.CatalogItems != null && Model.CatalogItems.Any())
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Type</th>
+                    <th>Brand</th>
+                    <th>Stock</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CatalogItems)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Description</td>
+                        <td>@item.Price.ToString("C")</td>
+                        <td>@item.CatalogType?.Type</td>
+                        <td>@item.CatalogBrand?.Brand</td>
+                        <td>@item.AvailableStock</td>
+                        <td>
+                            <a asp-page="/Catalog/Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a>
+                            <a asp-page="/Catalog/Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                            <a asp-page="/Catalog/Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No catalog items found.</p>
+    }
+</div>
+
+@if (Model.TotalPages > 1)
+{
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            @for (int i = 0; i < Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                    <a class="page-link" asp-page="/Catalog/Index" asp-route-pageIndex="@i" asp-route-typeId="@Model.TypeId" asp-route-brandId="@Model.BrandId">@(i + 1)</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
