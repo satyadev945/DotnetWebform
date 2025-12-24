@@ -1,0 +1,16 @@
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/eShopMigrated.Application.csproj.AssemblyReference.cache
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/eShopMigrated.Application.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/eShopMigrated.Application.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/eShopMigrated.Application.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/eShopMigrated.Application.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/eShopMigrated.Application.sourcelink.json
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/bin/Debug/net8.0/eShopMigrated.Application.deps.json
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/bin/Debug/net8.0/eShopMigrated.Application.dll
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/bin/Debug/net8.0/eShopMigrated.Application.pdb
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/bin/Debug/net8.0/eShopMigrated.Domain.dll
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/bin/Debug/net8.0/eShopMigrated.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/eShopMig.90ACE66C.Up2Date
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/eShopMigrated.Application.dll
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/refint/eShopMigrated.Application.dll
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/eShopMigrated.Application.pdb
+/modernize-data/studio-data/TNT1001/APP2097/transformed-code/105/studio-workspace/WebForm-rahul/src/eShopMigrated.Application/obj/Debug/net8.0/ref/eShopMigrated.Application.dll
