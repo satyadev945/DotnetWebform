@@ -1,0 +1,62 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to eShop Legacy</h1>
+    <p>Modern .NET 8 catalog management system</p>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Catalog Items</h5>
+                <p class="card-text">Manage your product catalog with full CRUD operations</p>
+                <a asp-page="/CatalogItems/Index" class="btn btn-primary">View Catalog</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Brands</h5>
+                <p class="card-text">Manage product brands and manufacturers</p>
+                <a asp-page="/CatalogBrands/Index" class="btn btn-primary">View Brands</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Types</h5>
+                <p class="card-text">Manage product categories and types</p>
+                <a asp-page="/CatalogTypes/Index" class="btn btn-primary">View Types</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (Model.RecentItems.Any())
+{
+    <div class="mt-5">
+        <h3>Recently Added Items</h3>
+        <div class="row">
+            @foreach (var item in Model.RecentItems.Take(3))
+            {
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">@item.Description</p>
+                            <p class="text-primary fw-bold">$@item.Price.ToString("F2")</p>
+                            <a asp-page="/CatalogItems/Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
