@@ -1,0 +1,76 @@
+@page
+@model EShop.Web.Pages.Catalog.CreateModel
+@{
+    ViewData["Title"] = "Create Catalog Item";
+}
+
+<div class="container">
+    <h1>Create Catalog Item</h1>
+
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="Input.Name" class="form-label"></label>
+            <input asp-for="Input.Name" class="form-control" />
+            <span asp-validation-for="Input.Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.Description" class="form-label"></label>
+            <textarea asp-for="Input.Description" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="Input.Description" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.Price" class="form-label"></label>
+            <input asp-for="Input.Price" class="form-control" />
+            <span asp-validation-for="Input.Price" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.PictureFileName" class="form-label"></label>
+            <input asp-for="Input.PictureFileName" class="form-control" />
+            <span asp-validation-for="Input.PictureFileName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.CatalogTypeId" class="form-label"></label>
+            <select asp-for="Input.CatalogTypeId" asp-items="Model.CatalogTypes" class="form-select">
+                <option value="">-- Select Type --</option>
+            </select>
+            <span asp-validation-for="Input.CatalogTypeId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.CatalogBrandId" class="form-label"></label>
+            <select asp-for="Input.CatalogBrandId" asp-items="Model.CatalogBrands" class="form-select">
+                <option value="">-- Select Brand --</option>
+            </select>
+            <span asp-validation-for="Input.CatalogBrandId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.AvailableStock" class="form-label"></label>
+            <input asp-for="Input.AvailableStock" class="form-control" />
+            <span asp-validation-for="Input.AvailableStock" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.RestockThreshold" class="form-label"></label>
+            <input asp-for="Input.RestockThreshold" class="form-control" />
+            <span asp-validation-for="Input.RestockThreshold" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.MaxStockThreshold" class="form-label"></label>
+            <input asp-for="Input.MaxStockThreshold" class="form-control" />
+            <span asp-validation-for="Input.MaxStockThreshold" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+        <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

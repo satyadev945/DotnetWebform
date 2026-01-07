@@ -1,0 +1,66 @@
+@page
+@model EShop.Web.Pages.Catalog.IndexModel
+@{
+    ViewData["Title"] = "Catalog";
+}
+
+<div class="container">
+    <h1>Catalog</h1>
+    <p>
+        <a asp-page="Create" class="btn btn-primary">Create New</a>
+    </p>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Picture</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Brand</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td><img src="/Pics/@item.PictureFileName" alt="@item.Name" style="width:50px;height:50px;" /></td>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>@item.CatalogBrand?.Brand</td>
+                    <td>@item.CatalogType?.Type</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@item.AvailableStock</td>
+                    <td>
+                        <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-page="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a>
+                        <a asp-page="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            @if (Model.PageIndex > 0)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-page="Index" asp-route-pageIndex="@(Model.PageIndex - 1)">Previous</a>
+                </li>
+            }
+            <li class="page-item disabled">
+                <span class="page-link">Page @(Model.PageIndex + 1) of @Model.TotalPages</span>
+            </li>
+            @if (Model.PageIndex < Model.TotalPages - 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-page="Index" asp-route-pageIndex="@(Model.PageIndex + 1)">Next</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
